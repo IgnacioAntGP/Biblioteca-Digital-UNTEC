@@ -1,0 +1,44 @@
+/* Estilos generales */
+/* Estilos de clases*/
+
+.header-content{
+    background-color: rgb(255, 138, 4) !important;
+}
+
+.footer-container {
+    background-color: rgb(255, 138, 4) !important;
+}
+
+.navbar {
+    background-color: rgb(255, 138, 4) !important;
+}
+
+.img-destacados {
+    height: 400px;
+    margin: 2rem auto;
+}
+
+.img-prestamo{
+    height: 200px;
+    margin: 2rem auto;
+}
+
+.img-logo{
+    height: 50px;
+    margin: 0 auto;
+}
+
+/* Invertir los íconos de las flechas a nivel CSS */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+/* Invertir las barras indicadoras */
+.carousel-indicators [data-bs-target] {
+    filter: invert(100%);
+}
+
+.carousel-caption{
+    filter: invert(100%);
+}
